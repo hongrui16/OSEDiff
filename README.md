@@ -39,11 +39,11 @@
 
    Flexible and efficient diffusion sampling for super-resolution, **supporting arbitrary number of inference steps**, *e.g.*, 1~15 step(s).
 
-2. **AdcSR (2024.11)** [Paper](https://arxiv.org/pdf/2411.13383) | Code 
+2. **AdcSR (2024.11)** [Paper](https://arxiv.org/pdf/2411.13383) | [Code](https://github.com/Guaishou74851/AdcSR) 🚩 Accepted by **CVPR2025**
 
    Adversarial Diffusion Compression framework for super-resolution, **offering up to 9.3× speedup over OSEDiff**.
 
-3. **PiSA-SR (2024.12)** [Paper](https://arxiv.org/pdf/2412.03017) | [Code](https://github.com/csslc/PiSA-SR)  
+3. **PiSA-SR (2024.12)** [Paper](https://arxiv.org/pdf/2412.03017) | [Code](https://github.com/csslc/PiSA-SR)  🚩 Accepted by **CVPR2025**
 
    Adjustable diffusion network for super-resolution to meet your preference!
 
