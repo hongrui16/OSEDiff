@@ -65,8 +65,8 @@ if __name__ == "__main__":
 
     # get all input images
     if os.path.isdir(args.input_image):
-        # image_names = sorted(glob.glob(f'{args.input_image}/*.png'))
-        image_names = os.listdir(args.input_image)
+        image_names = sorted(glob.glob(f'{args.input_image}/*.png'))
+        # image_names = os.listdir(args.input_image)
     else:
         image_names = [args.input_image]
 
