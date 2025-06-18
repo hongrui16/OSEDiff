@@ -65,7 +65,8 @@ if __name__ == "__main__":
 
     # get all input images
     if os.path.isdir(args.input_image):
-        image_names = sorted(glob.glob(f'{args.input_image}/*.png'))
+        # image_names = sorted(glob.glob(f'{args.input_image}/*.png'))
+        image_names = os.listdir(args.input_image)
     else:
         image_names = [args.input_image]
 
@@ -131,6 +132,6 @@ if __name__ == "__main__":
                 pass
             if resize_flag:
                 output_pil.resize((int(args.upscale*ori_width), int(args.upscale*ori_height)))
-
-        output_pil.save(os.path.join(args.output_dir, bname))
+        new_name = bname.split('.')[-2] + "_OSEDiff.png"
+        output_pil.save(os.path.join(args.output_dir, new_name))
 
