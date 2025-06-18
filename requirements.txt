@@ -12,3 +12,4 @@ huggingface_hub==0.25.0
 basicsr
 loralib
 fairscale
+numpy<2
